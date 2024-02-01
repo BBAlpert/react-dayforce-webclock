@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.ButtonPanel {
+}
+
+.BadgeEntry {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.TaskTitle {
+  background-color: lightgray;
+  color: darkblue;
+  font-weight: 600;
+  font-size: 2em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.EnteredNumber {
+  font-size: 1.8em;
+  color: gray;
+}
+
+.ButtonRow {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.NumberButton {
+  border: hsla(0, 0%, 75%, 1) 1px solid;
+  border-radius: 3px;
+  margin: 3px;
+  padding: 20px;
+  flex-grow: 1;
+  font-size: 2em;
+  color: darkblue;
+}
+
+.NumberButton:hover {
+  background-color: lightgray;
+  box-shadow: 2px 4px 2px 0 rgba(0, 0, 0, 0.2);
+  /*color: white;*/
+}
